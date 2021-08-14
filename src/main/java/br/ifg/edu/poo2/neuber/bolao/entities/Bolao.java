@@ -38,7 +38,7 @@ public class Bolao {
     @Column(nullable = false)
     private float numCotas;
 
-    @Getter
+   /* @Getter
     @ManyToMany
     @JoinTable(name="participante", @JoinColumn(name="id"),
             inverseJoinColumns = @JoinColumn(name="id"))
@@ -59,5 +59,5 @@ public class Bolao {
     @ManyToMany
     @JoinTable(name="aposta", @JoinColumn(name="id"),
             inverseJoinColumns = @JoinColumn(name="id"))
-    private List<Aposta> apostas = new ArrayList<>();
+    private List<Aposta> apostas = new ArrayList<>();*/
 }
