@@ -10,7 +10,6 @@ import java.util.List;
 
 @Entity
 public class Bolao {
-
     private static final long serialVersionUID = 1L;
 
     @Id
