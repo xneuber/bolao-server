@@ -37,17 +37,17 @@ public class Bolao {
     @Column(nullable = false)
     private float numCotas;
 
-   /* @Getter
-    @ManyToMany
-    @JoinTable(name="participante", @JoinColumn(name="id"),
-            inverseJoinColumns = @JoinColumn(name="id"))
-    private List<Participante> participantes= new ArrayList<>();
+    @ManyToMany(cascade = { CascadeType.PERSIST, CascadeType.REFRESH }, fetch = FetchType.LAZY)
+    @JoinTable(name = "bolao_participante", joinColumns = {
+            @JoinColumn(name = "id_bolao") }, inverseJoinColumns = {
+            @JoinColumn(name = "id_participante") })
+    private List<Participante> participantes = new ArrayList<>();
+
 
     public void addParticipante(Participante participante){
         this.participantes.add(participante);
     }
-
-    @Getter
+    /*@Getter
     @Setter
     @ManyToOne
     @JoinTable(name="tipo_jogo", @JoinColumn(name="id"),

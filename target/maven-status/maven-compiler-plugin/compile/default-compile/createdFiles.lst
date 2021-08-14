@@ -1,0 +1,17 @@
+br\ifg\edu\poo2\neuber\bolao\entities\Participante.class
+br\ifg\edu\poo2\neuber\bolao\entities\TipoJogo.class
+br\ifg\edu\poo2\neuber\bolao\repositories\BolaoRespository.class
+br\ifg\edu\poo2\neuber\bolao\entities\Numero.class
+br\ifg\edu\poo2\neuber\bolao\repositories\TipoJogoRepository.class
+br\ifg\edu\poo2\neuber\bolao\entities\Aposta.class
+br\ifg\edu\poo2\neuber\bolao\BolaoApplication.class
+br\ifg\edu\poo2\neuber\bolao\entities\QuotaBolao.class
+br\ifg\edu\poo2\neuber\bolao\resources\ParticipanteResource.class
+br\ifg\edu\poo2\neuber\bolao\repositories\NumeroRepository.class
+br\ifg\edu\poo2\neuber\bolao\repositories\ApostaRepository.class
+br\ifg\edu\poo2\neuber\bolao\services\ParticipanteService.class
+br\ifg\edu\poo2\neuber\bolao\entities\Bolao.class
+br\ifg\edu\poo2\neuber\bolao\config\SwaggerConfig.class
+br\ifg\edu\poo2\neuber\bolao\repositories\QuotaBolaoRepository.class
+br\ifg\edu\poo2\neuber\bolao\config\Config.class
+br\ifg\edu\poo2\neuber\bolao\repositories\ParticipanteRepository.class

@@ -10,14 +10,17 @@ import javax.persistence.*;
 public class Numero {
     private static final long serialVersionUID = 1L;
 
+    public Numero(int numero) {
+        this.numero = numero;
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private int id;
 
     @Setter
+    @Column (unique = true)
     private int numero;
 
-    public Numero(int numero) {
-        this.numero = numero;
-    }
+
 }
